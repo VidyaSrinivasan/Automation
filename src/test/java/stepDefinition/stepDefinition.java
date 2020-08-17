@@ -58,11 +58,13 @@ public class stepDefinition {
 	    @Given("^validate browser$")
 	    public void validate_browser() throws Throwable {
 	        System.out.println("Validate browser");
+	        System.out.println("Validate browser2");
 	    }
 
 	    @When("^browser is triggered$")
 	    public void browser_is_triggered() throws Throwable {
 	    	System.out.println("Browser is triggered");
+	    	System.out.println("Browser2 is triggered");
 	    }
 
 	    @Then("^check if browser is started$")
