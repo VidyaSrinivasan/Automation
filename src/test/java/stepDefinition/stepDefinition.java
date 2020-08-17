@@ -70,6 +70,7 @@ public class stepDefinition {
 	    @Then("^check if browser is started$")
 	    public void check_if_browser_is_started() throws Throwable {
 	    	System.out.println("Browser is started");
+	    	System.out.println("Browser2 is started");
 	    }
 
 
